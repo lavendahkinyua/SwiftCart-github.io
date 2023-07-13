@@ -27,12 +27,12 @@ body {
 
 .review-header {
     display: flex;
-    width: 281px;
+    width: 350px;
     flex-direction: column;
     flex-shrink: 0;
     color: #254337;
     font-family: Poppins;
-    font-size: 28px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;

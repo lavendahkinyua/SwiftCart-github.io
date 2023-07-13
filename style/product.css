@@ -1,18 +1,18 @@
 /* link to google fonts*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
-body {
+/* body {
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    width: 100vw;
+    width: 100vw; */
 
     /* margin: 0;
     padding: 0; */
     /* box-sizing: border-box; */
-}
+
 
 .products-section {
     width: 100%;
@@ -35,7 +35,7 @@ body {
 .first-text {
     color: #254337;
     font-family: Poppins;
-    font-size: 28px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
