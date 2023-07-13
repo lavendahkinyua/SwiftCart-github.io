@@ -1,0 +1,154 @@
+/* import google font */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;  
+
+
+}
+
+.review-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 774px;
+    background-color: #CCF8E6;
+    justify-content: center;
+}
+
+.review-group1 {
+   display: flex;
+   justify-content: center;
+   padding-top: 90px;
+   
+
+}
+
+.review-header {
+    display: flex;
+    width: 281px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #254337;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.42px;
+    padding-top: 250px;
+    padding-right: 100px;
+
+}
+
+.review-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 625px;
+    height: 584px;
+    gap: 20px;
+    flex-direction: column;
+    padding: 16px;
+    
+}
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+
+}
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.reviewer {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 13px;
+    background: #CCF8E6;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.30);
+    width: 300px;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+}
+
+.review {
+    display: flex;
+    width: 268px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #254337;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.21px;
+    flex-wrap: wrap;
+    padding-top: 16px;
+
+}
+
+.name {
+    color: #254337;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.24px;
+}
+
+.review-section>.review-header,
+.review-section>.review-container {
+    flex: 1;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1034px) {
+    .review-group1 {
+        display: flex;
+        justify-content: center;
+        padding-top: 90px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .review-header {
+        display: flex;
+
+        padding-top: 20px;
+        text-align: center;
+    }
+    .review-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 500px;
+        padding: 0;
+        flex-direction: row;
+        /* padding-top: 20px; */
+    }
+    .reviewer {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 20px;
+    }
+    .review-section {
+        width: 100%;
+        min-height: 1500px;
+        background-color: #CCF8E6;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+}

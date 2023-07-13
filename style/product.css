@@ -1,0 +1,230 @@
+/* link to google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100vw;
+
+    /* margin: 0;
+    padding: 0; */
+    /* box-sizing: border-box; */
+}
+
+.products-section {
+    max-width: 1000px;
+    background-color: #CCF8E6;
+    height: 667px;
+}
+
+/* text */
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 508px;
+    height: 220px;
+    padding-top: 192px;
+    padding-left: 140px;
+    justify-content: space-between;
+}
+
+.first-text {
+    color: #254337;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.42px;
+    width: 378px;
+    padding-bottom: 16px;
+}
+
+.sec-text {
+    color: #254337;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    width: 508px;
+}
+
+/* end text */
+
+/* product container */
+
+
+
+
+
+.product-container {
+    display: flex;
+    width: 420.371px;
+    height: 490px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 100px;
+    padding-top: 80px;
+    justify-content: center;
+
+}
+
+.product {
+    width: 185.19px;
+    height: 200;
+    margin-bottom: 20px;
+    margin-right: 16px;
+    text-align: center;
+
+}
+
+.product:nth-child(1) {
+    border: none;
+    border-radius: 13px;
+    background-color: #FEE0BB;
+    margin-left: 0px;
+}
+
+.product-name {
+    color: #AF8653;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+.product:nth-child(1) .product-name {
+    color: #AF8653;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+.product:nth-child(2) .product-name {
+    color: #953146;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+.product:nth-child(3) .product-name {
+    color: #5C9561;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+.product:nth-child(4) .product-name {
+    color: #956B56;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+
+.product:nth-child(2) {
+    border: none;
+    border-radius: 13px;
+    background-color: #FFE7ED;
+}
+
+.product:nth-child(3) {
+    border: none;
+    border-radius: 13px;
+    background-color: #BAF2BF;
+}
+
+.product:nth-child(4) {
+    border: none;
+    border-radius: 13px;
+    background-color: #F8C5AB;
+}
+
+
+.product .explore-1 {
+    color: #AF8653;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.21px;
+}
+
+.product .explore-2 {
+    color: #953146;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.21px;
+}
+
+.product .explore-3 {
+    color: #5C9561;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.21px;
+   
+}
+
+.product .explore-4 {
+    color: #956B56;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.21px;
+}
+
+.explore-button {
+    width: 156px;
+    height: 55px;
+    border-radius: 4px;
+    background-color: #0ACF83;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+}
+
+
+
+
+
+.products-section {
+    display: flex;
+}
+
+.products-section>.text-container,
+.products-section>.container {
+    flex: 1;
+}
