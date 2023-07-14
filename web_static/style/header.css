@@ -1,0 +1,140 @@
+header {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-big) var(--padding-big);
+    z-index: 1000;
+}
+
+.header__logo {
+    display: flex;
+    width: 170px;
+    height: 42.285px;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('../images/Swifcart\ Logo_v3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#top__navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--margin-medium);
+}
+
+#top__navbar__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--margin-medium);
+}
+
+.top__navbar__link {
+    color: var(--secondary-color);
+}
+
+.top__navbar__link.active, .top__navbar__link:hover{
+    color: var(--primary-color);
+    font-weight: var(--font-weight-medium);
+}
+
+#top__navbar__ctas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--margin-medium);
+}
+
+.top__navbar__cta__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px var(--padding-big);
+    border-radius: 5px;
+    border: 2px solid var(--primary-color);
+}
+
+.top__navbar__cta__item:first-child:hover {
+    background-color: var(--primary-color);
+    box-shadow: 0px 0px 8px 4px rgba(10, 207, 131, 0.30);
+}
+
+.top__navbar__cta__item .top__navbar__cta {
+    color: var(--secondary-color);
+}
+
+
+#top__navbar__hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger__bar {
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+    border-radius: 2px;
+    background-color: var(--secondary-color);
+    transform: 0.4s;
+}
+
+#top__navbar__hamburger:hover .hamburger__bar {
+    background-color: var(--primary-color);
+}
+
+.close #hamburger__bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+
+.close #hamburger__bar2 {
+    opacity: 0;
+}
+
+
+.close #hamburger__bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+.scrolled__header {
+    background-color: var(--secondary-color);
+    transition: background-color 200ms linear;
+    box-shadow: 0px 0px 8px 4px rgba(89, 89, 89, 0.3);
+}
+
+.scrolled__header a,
+.scrolled__header .top__navbar__cta__item:first-child .top__navbar__cta {
+    color: var(--quaternary-color);
+}
+
+.scrolled__header .top__navbar__cta__item:hover .top__navbar__cta {
+    color: var(--secondary-color);
+}
+
+.scrolled__header .hamburger__bar {
+    background-color: var(--quaternary-color);
+}
+
+.top__navbar__cta__item:first-child:hover .top__navbar__cta {
+    color: var(--secondary-color);
+}
+
+
+.top__navbar__cta__item:last-child {
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    box-shadow: 0px 0px 8px 4px rgba(10, 207, 131, 0.30);
+}
