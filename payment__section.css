@@ -54,6 +54,6 @@
     height: 425px;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('/web_static/images/payment_phones.jpg');
+    background-image: url('web_static/images/payment_phones.jpg');
     background-size: cover;
 }
