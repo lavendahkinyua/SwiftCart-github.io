@@ -96,20 +96,20 @@
 
 .product:nth-child(1) .image {
     scale: 1.5;
-    background: url('/web_static/images/product_image_1.png') 100% / contain no-repeat;
+    background: url('/images/product_image_1.png') 100% / contain no-repeat;
 }
 
 .product:nth-child(2) .image {
-    background: url('/web_static/images/product_image_2.png') 100% / contain no-repeat;
+    background: url('/images/product_image_2.png') 100% / contain no-repeat;
 }
 
 .product:nth-child(3) .image {
     scale: 1.3;
-    background: url('/web_static/images/product_image_3.png') 100% / contain no-repeat;
+    background: url('/images/product_image_3.png') 100% / contain no-repeat;
 }
 
 .product:nth-child(4) .image {
-    background: url('/web_static/images/product_image_4.png') 100% / contain no-repeat;
+    background: url('/images/product_image_4.png') 100% / contain no-repeat;
 }
 
 .product:nth-child(1) .product__name,
