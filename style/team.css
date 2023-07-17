@@ -18,10 +18,10 @@
 }
 
 .team-group1 {
-   display: flex;
-   justify-content: center;
-   padding-top: 90px;
-   
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+
 
 }
 
@@ -52,8 +52,9 @@
     gap: 20px;
     flex-direction: column;
     padding: 16px;
-    
+
 }
+
 .user {
     display: flex;
     flex-direction: row;
@@ -61,13 +62,26 @@
     gap: 16px;
 
 }
+
 .details {
     display: flex;
     flex-direction: column;
 }
 
 
-.member {
+/* .member {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 13px;
+    background: #CCF8E6;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.30);
+    width: 300px;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+} */
+
+.member-lavendah {
     padding: 10px;
     box-sizing: border-box;
     border-radius: 13px;
@@ -78,6 +92,58 @@
     display: flex;
     flex-direction: column;
 }
+
+.member-mohamed {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 13px;
+    background: #CCF8E6;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.30);
+    width: 300px;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+}
+
+.member-moses {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 13px;
+    background: #CCF8E6;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.30);
+    width: 300px;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+}
+
+.media__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.media__links:hover {
+    cursor: pointer;
+}
+
+.media__links a img {
+    transition: transform 0.32s;
+}
+
+.media__links a img:hover {
+    transform: scale(1.2);
+}
+
+
+/* .member:hover {
+    background: #E6FFE6;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.30);
+    transition: 0.3s;
+} */
 
 .team {
     display: flex;
@@ -122,12 +188,14 @@
         flex-direction: column;
         align-items: center;
     }
+
     .team-header {
         display: flex;
 
         padding-top: 20px;
         text-align: center;
     }
+
     .team-container {
         display: flex;
         justify-content: center;
@@ -137,12 +205,16 @@
         flex-direction: row;
         /* padding-top: 20px; */
     }
+
     .member {
         width: 100%;
         max-width: 400px;
         margin-top: 20px;
     }
-    .team-section {
+
+    
+
+     .team-section {
         width: 100%;
         min-height: 1500px;
         background-color: #CCF8E6;
@@ -153,11 +225,3 @@
     }
 }
 
-.media__links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-direction: row;
-    padding-top: 20px;
-}
