@@ -1,12 +1,4 @@
-/* import google font */
-/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); */
 
-/* body {
-    font-family: 'Poppins', sans-serif;
-    width: 100vw;  
-
-
-} */
 
 .team-section {
     display: flex;
@@ -139,12 +131,6 @@
 }
 
 
-/* .member:hover {
-    background: #E6FFE6;
-    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.30);
-    transition: 0.3s;
-} */
-
 .team {
     display: flex;
     width: 268px;
@@ -212,9 +198,9 @@
         margin-top: 20px;
     }
 
-    
 
-     .team-section {
+
+    .team-section {
         width: 100%;
         min-height: 1500px;
         background-color: #CCF8E6;
@@ -224,4 +210,3 @@
 
     }
 }
-
